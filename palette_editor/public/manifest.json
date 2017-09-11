@@ -3,8 +3,8 @@
   "name": "Palette Editor for Volume files",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "192x192",
+      "src": "favicon.png",
+      "sizes": "260x260",
       "type": "image/png"
     }
   ],
