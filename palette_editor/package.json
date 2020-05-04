@@ -20,7 +20,8 @@
     "react": "^15.5.4",
     "react-dom": "^16.0.1",
     "react-test-renderer": "^15.6.1",
-    "sinon": "^2.3.7"
+    "sinon": "^2.3.7",
+    "snyk": "^1.317.0"
   },
   "devDependencies": {
     "react-scripts": "1.0.7"
@@ -29,6 +30,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "mocha -r babel-register -r ignore-styles -r jsdom-global/register",
-    "eject": "react-scripts eject"
-  }
+    "eject": "react-scripts eject",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
