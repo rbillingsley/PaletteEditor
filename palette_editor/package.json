@@ -13,14 +13,14 @@
     "eslint": "^4.2.0",
     "eslint-config-airbnb": "^15.0.2",
     "ignore-styles": "^5.0.1",
-    "jsdom": "^11.1.0",
+    "jsdom": "^16.6.0",
     "jsdom-global": "^3.0.2",
     "mocha": "^3.4.2",
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
     "react-dom": "^16.0.1",
     "react-test-renderer": "^15.6.1",
-    "sinon": "^2.3.7"
+    "sinon": "^16.1.2"
   },
   "devDependencies": {
     "react-scripts": "1.0.7"
